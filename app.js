@@ -4,7 +4,7 @@ const endDateInputEl = document.getElementById("end-date");
 const pastPeriodContainer = document.getElementById("past-periods");
 
 // Add the storage key as an app-wide constant
-const STORAGE_KEY = "period-tracker";
+const STORAGE_KEY = "check-tracker";
 
 // Listen to form submissions.
 newPeriodFormEl.addEventListener("submit", (event) => {
@@ -67,7 +67,7 @@ function renderPastPeriods() {
 
 function formatDate(dateString) {
   const date = new Date(dateString);
-  return date.toLocaleDateString("en-US", { timeZone: "UTC" });
+  return date.toLocaleDateString("ru-RU", { timeZone: "Moscow" });
 }
 
 renderPastPeriods();

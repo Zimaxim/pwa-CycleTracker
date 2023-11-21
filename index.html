@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width" />
     <title>Cycle Tracker</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="manifest" href="cycletracker.json" />
-    <link rel="icon" href="icons/circle.svg" />
+    <link rel="manifest" href="skup.json" />
+    <link rel="icon" href="icons/favico.ico" />
   </head>
   <body>
-    <h1>Period tracker</h1>
+    <h1>Tracker</h1>
     <form id="new-period">
       <fieldset>
         <legend>Enter your period start and end date</legend>
@@ -21,6 +21,35 @@
           <label for="end-date">End date</label>
           <input type="date" id="end-date" required />
         </p>
+
+<label class="toggle">
+  <input class="toggle-checkbox" type="checkbox" checked >
+  <div class="toggle-switch"></div>
+  <span class="toggle-label">Bluetooth</span>
+</label>
+<p>
+<label class="checkbox-ios">
+	<input type="checkbox">
+	<span class="checkbox-ios-switch"></span>
+</label>
+</p><p>	
+<label class="checkbox-ios">
+	<input type="checkbox" checked>
+	<span class="checkbox-ios-switch"></span>
+</label>
+</p><p>	
+<label class="checkbox-ios">
+	<input type="checkbox" disabled>
+	<span class="checkbox-ios-switch"></span>
+</label>
+</p><p>	
+<label class="checkbox-ios">
+	<input type="checkbox" checked disabled>
+	<span class="checkbox-ios-switch"></span>
+</label>
+ </p>
+
+
       </fieldset>
       <p>
         <button type="submit">Add Period</button>
