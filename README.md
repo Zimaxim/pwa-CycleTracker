@@ -1,2 +1,2 @@
-# pwa-CycleTracker
+# pwa-skup
 First PWA 
